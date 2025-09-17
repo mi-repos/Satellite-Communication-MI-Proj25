@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Satellite Communication Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Satellite Communication Dashboard</h1>
+  </header>
+  <main class="main-container">
+    <section class="satellite-info flex-container">
+      <div class="satellite-image">
+        <img src="images/satellite.png" alt="Satellite schematic">
+      </div>
+      <div class="satellite-details">
+        <h2>Sat‑1: Orbital Data</h2>
+        <ul>
+          <li>Altitude: <span id="altitude">--</span> km</li>
+          <li>Velocity: <span id="velocity">--</span> km/s</li>
+          <li>Status: <span id="status">--</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="comm-panel flex-container">
+      <div class="panel">
+        <h3>Downlink</h3>
+        <p>Data Rate: <span id="downlink-rate">--</span> Mbps</p>
+        <p>Signal Strength: <span id="downlink-strength">--</span> dB</p>
+      </div>
+      <div class="panel">
+        <h3>Uplink</h3>
+        <p>Data Rate: <span id="uplink-rate">--</span> Mbps</p>
+        <p>Signal Strength: <span id="uplink-strength">--</span> dB</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>© 2025 Satellite Communication Project - Mohammed Issa</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
